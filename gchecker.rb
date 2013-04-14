@@ -17,7 +17,7 @@ if (ARGV.length < 2)
   exit   
 end
 
-q = ARGV[0].split
+q = URI.encode(ARGV[0]).split
 query = q.map! { |a| "#{a}"}.join("+")
 
 domain = ARGV[1]
@@ -26,7 +26,7 @@ add your proxy server below
 for example:
 proxy = ['46.186.107.102:80','93.157.103.243:80']
 =end
-proxy['']
+proxy = []
 proxy_used = proxy.sample
 puts "You are using proxy: #{proxy_used}"
 
