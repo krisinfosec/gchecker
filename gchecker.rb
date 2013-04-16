@@ -49,7 +49,7 @@ begin
     result_num = (page_num-1) * 10
     elements = Hpricot.parse(
       open(
-      "http://google.com/search?q=#{query}&start=#{result_num}&sa=N&hl=en",'Proxy'=>proxy_used,'User-Agent'=>'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; pl-PL; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2')).search("li.g h3.r a")
+      "http://google.#{ext}/search?q=#{query}&start=#{result_num}&sa=N&hl=#{lang}",'Proxy'=>proxy_used,'User-Agent'=>'Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.6; pl-PL; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2')).search("li.g h3.r a")
     elements.each do |el|
       position += 1
     if (el.attributes['href'].include? domain)
