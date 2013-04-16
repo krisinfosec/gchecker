@@ -6,4 +6,4 @@ proxy = ['1.1.1.1:88','2.2.2.2:5003']
 
 You have to run gchecker.rb in console.
 Using example:
-irb gchecker.rb "example keyword" "example.com"
+ruby gchecker.rb "example keyword" "example.com"
