@@ -10,7 +10,7 @@ max_pages = 10
 found = false
 
 def msg_usage()
-   puts "usage: " + $FILENAME + '"keyword\" \"domain\" \"optional-lang\"'
+   puts "usage: " + $FILENAME + '"keyword\" \"domain\" \"optional-language\"'
 end
 if (ARGV.length < 2)
   msg_usage()
@@ -37,7 +37,7 @@ add your proxy server below
 for example:
 proxy = ['46.186.107.102:80','93.157.103.243:80']
 =end
-proxy = ['46.186.107.102:80','93.157.103.243:80']
+proxy = []
 proxy_used = proxy.sample
 puts "You are using proxy: #{proxy_used}"
 
