@@ -8,6 +8,8 @@ proxy = ['1.1.1.1:88','2.2.2.2:5003']
 
 You have to run gchecker.rb in console.
 
+
+Below part will be change.
 Using example:
 
 ruby gchecker.rb "example keyword" "example.com" "optional language - for example: de"

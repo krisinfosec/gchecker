@@ -7,7 +7,7 @@
     <ignored path="gcheckerqt.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="6fda954f-caf9-43b0-bbdc-d8e1afd90cee" time="1366320666409" ignored="false" />
-    <file path="/README.md" changelist="6fda954f-caf9-43b0-bbdc-d8e1afd90cee" time="1366320828289" ignored="false" />
+    <file path="/README.md" changelist="6fda954f-caf9-43b0-bbdc-d8e1afd90cee" time="1366322298222" ignored="false" />
     <file path="/gchecker.rb" changelist="6fda954f-caf9-43b0-bbdc-d8e1afd90cee" time="1366321057796" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+            <state line="11" column="26" selection-start="326" selection-end="326" vertical-scroll-proportion="0.21854305">
               <folding />
             </state>
           </provider>
@@ -224,7 +224,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
+        <state line="11" column="26" selection-start="326" selection-end="326" vertical-scroll-proportion="0.21854305">
           <folding />
         </state>
       </provider>
