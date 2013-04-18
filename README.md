@@ -1,3 +1,6 @@
+A little fun with Ruby and QT library in gchecker.rb
+I know I shouldn't do that, but ... :)
+
 This script is a simple example how you can use Ruby as SEO tool.
 
 Before you are starting use this script, you have to define proxy array in the code.

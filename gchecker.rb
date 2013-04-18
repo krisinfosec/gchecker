@@ -2,6 +2,7 @@
 require 'cgi'
 require 'open-uri'
 require 'hpricot'
+require 'QT'
 
 page_num = 0
 position = 0
